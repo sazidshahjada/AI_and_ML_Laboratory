@@ -1,0 +1,5 @@
+- **BFS/DFS:** BFS explores by increasing depth; DFS follows a branch and is more sensitive to child order.
+- **Admissible heuristic:** h(n) never exceeds the actual minimum remaining cost.
+- **A\*:** f(n)=g(n)+h(n); with nonnegative costs and suitable heuristic/graph-search handling, it can return an optimal path.
+- **Inertia:** sum of squared distances from samples to their assigned cluster centers.
+- **Silhouette:** measures how well a point fits its own cluster compared with the nearest alternative cluster.

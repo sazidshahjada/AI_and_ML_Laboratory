@@ -1,0 +1,6 @@
+- **BFS vs DFS:** BFS uses a FIFO queue and finds a shallowest path in unweighted graphs; DFS uses a stack and can return a deeper path depending on child ordering.
+- **Bidirectional search:** searches forward from start and backward from goal, meeting in the middle; it needs reverse edges and a suitable stopping condition.
+- **Cross-validation:** repeatedly trains/evaluates on different folds to estimate generalization.
+- **J48:** WEKA's C4.5-style decision tree classifier.
+- **IBk:** WEKA's k-nearest-neighbor classifier.
+- **Regression:** models a numeric response; slope is change per input unit and intercept is predicted response at zero.

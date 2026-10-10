@@ -1,0 +1,9 @@
+- **Agent:** an entity that perceives its environment through sensors and acts through actuators.
+- **PEAS:** Performance measure, Environment, Actuators, Sensors.
+- **BFS:** explores shallowest depth first using a queue; complete on finite unweighted graphs and finds a fewest-edge path.
+- **DFS:** explores one branch deeply using a stack/recursion; low memory but does not generally guarantee a shortest path.
+- **Greedy Best-First:** selects the frontier node with smallest heuristic h(n); can be misled because it ignores path cost.
+- **Heuristic:** estimate of remaining cost/distance to a goal.
+- **k-NN:** classifies from nearby training examples; k controls neighborhood size.
+- **Scaling:** puts features on comparable ranges, important for distance-based algorithms.
+- **Confusion matrix:** counts true labels against predicted labels, exposing which classes are confused.

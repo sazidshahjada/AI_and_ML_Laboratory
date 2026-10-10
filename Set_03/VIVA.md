@@ -1,0 +1,7 @@
+- **Predicate:** a relation or property, such as Parent(x,y).
+- **Constant:** a named individual (Ali); **variable:** a placeholder (x, y).
+- **A\*:** prioritizes f(n)=g(n)+h(n), combining cost already paid and estimated remaining cost.
+- **Admissible heuristic:** never overestimates the true least remaining cost.
+- **Centroid:** mean feature vector of points assigned to a cluster.
+- **Inertia:** within-cluster sum of squared distances; it cannot increase when k is increased for an optimally solved K-means problem.
+- **Silhouette:** compares within-cluster cohesion with separation from the nearest other cluster; larger is generally better.

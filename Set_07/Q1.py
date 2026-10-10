@@ -1,0 +1,10 @@
+PARENT=[("Rahman","Hasan"),("Rahman","Nabila"),("Hasan","Rafi"),("Nabila","Tania"),("Rafi","Samia")]
+def children_of(x):return sorted({c for p,c in PARENT if p==x})
+def grandchildren_of(x):return sorted({g for p,c in PARENT for p2,g in PARENT if p==x and p2==c})
+def grandparent(x,z):return any(p==x and p2==c and g==z for p,c in PARENT for p2,g in PARENT)
+def siblings(x,y):return x!=y and any(p1==p2 and c1==x and c2==y for p1,c1 in PARENT for p2,c2 in PARENT)
+people=sorted({n for pair in PARENT for n in pair})
+print("Parent facts:",PARENT)
+for p in people:print("children_of",p,children_of(p),"grandchildren_of",p,grandchildren_of(p))
+print("Grandparent triples:",sorted({(x,z) for x in people for z in people if grandparent(x,z)}))
+print("Sibling pairs:",sorted({tuple(sorted((x,y))) for x in people for y in people if siblings(x,y)}))

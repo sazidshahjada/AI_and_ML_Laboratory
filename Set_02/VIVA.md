@@ -1,0 +1,6 @@
+- **Forward chaining:** repeatedly apply rules whose premises are all known facts until no new fact is added.
+- **Fact vs rule:** a fact is currently known; a rule expresses an implication from premises to a conclusion.
+- **DLS:** depth-limited DFS; a cutoff means the depth limit stopped exploration, not necessarily that no solution exists.
+- **IDDFS:** runs DLS with limits 0,1,2,…; it repeats shallow work but uses memory similar to DFS and finds shallow solutions.
+- **Slope/intercept:** in y=mx+b, m is change in predicted y per unit x; b is the predicted value at x=0.
+- **R²:** coefficient of determination; 1 is perfect fit, 0 matches the mean-only baseline on the evaluated data, and it can be negative on test data.

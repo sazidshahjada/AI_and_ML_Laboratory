@@ -1,0 +1,6 @@
+- **Simple reflex agent:** maps the current percept directly to an action without maintaining a complex plan.
+- **State:** description of the environment at a particular time.
+- **Greedy vs A\*:** Greedy minimizes h(n); A* minimizes g(n)+h(n), and with suitable conditions A* finds an optimal path.
+- **Tree splitting:** chooses a feature/threshold that improves class purity (e.g., information gain or Gini reduction).
+- **Overfitting:** learning training-specific noise and generalizing poorly.
+- **Precision:** TP/(TP+FP); **recall:** TP/(TP+FN); **F1:** harmonic mean of precision and recall.

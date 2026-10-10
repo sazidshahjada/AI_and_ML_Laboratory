@@ -1,0 +1,7 @@
+- **FOL:** represents objects and relations with predicates, constants, and variables.
+- **Relation:** a set of tuples, e.g. Parent(parent, child).
+- **Heuristic:** estimated remaining cost; it influences informed search.
+- **Greedy Best-First:** expands the frontier node with the smallest h value and is not generally cost-optimal.
+- **Unsupervised learning:** discovers structure in data without target labels.
+- **Feature scaling:** rescales variables; important for distance-based clustering.
+- **Silhouette:** a cohesion/separation score, typically between -1 and 1.

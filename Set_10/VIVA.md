@@ -1,0 +1,6 @@
+- **Knowledge base:** a collection of facts and inference rules.
+- **Forward chaining:** data-driven rule application that adds conclusions until no rule can add a new fact.
+- **BFS:** queue-based search, typically shortest path by number of edges in an unweighted graph.
+- **Greedy Best-First:** chooses smallest heuristic estimate h(n), ignoring the cost already paid.
+- **A\*:** uses g(n)+h(n); heuristic quality affects efficiency and optimality guarantees.
+- **Accuracy:** fraction of correct predictions; **precision:** correctness among predicted positives; **recall:** fraction of actual positives found; **F1:** harmonic mean of precision and recall.

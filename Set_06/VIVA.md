@@ -1,0 +1,5 @@
+- **Forward chaining:** derives conclusions from known facts and implication rules.
+- **Implication P→Q:** false only for P=true, Q=false.
+- **BFS/DFS/IDDFS:** queue-based shallow-first, stack-based deep-first, and repeated depth-limited search.
+- **k-NN:** distance-based supervised classification; feature scale affects distance.
+- **Decision tree:** learns feature tests; monotonic scaling normally does not change the order of values or the candidate partitions.

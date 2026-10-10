@@ -1,0 +1,6 @@
+- **DLS:** DFS that never explores beyond a specified depth.
+- **IDDFS:** repeated DLS with increasing limits; “cutoff” means deeper search may be needed.
+- **Cross-validation:** evaluates a model over multiple train/validation partitions.
+- **Preprocessing:** transformations such as scaling applied before model fitting; fit scalers on training folds only to avoid leakage.
+- **Regression:** predicts a numeric value.
+- **R²:** proportion of target variation explained relative to predicting the mean; test R² can be negative.
